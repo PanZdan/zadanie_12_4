@@ -15,6 +15,4 @@ function getJoke() {
 	});
 	xhr.send();
 }
-window.onload = function() {
-	getJoke();
-}
+getJoke();
